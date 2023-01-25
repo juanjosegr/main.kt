@@ -16,7 +16,6 @@ class Coche (color:String, marca: String, modelo: String, caballos: Int, puertas
     fun imprimir(){
         println("Tu coche es un $marca $modelo, de color $color, con $caballos cv, de $puertas puertas y con matricula de $matricula.")
     }
-
     override fun toString(): String {
         return "Tu coche es un $marca $modelo, de color $color, con $caballos cv, de $puertas puertas y con matricula de $matricula."
     }
