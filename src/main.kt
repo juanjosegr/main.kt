@@ -4,5 +4,5 @@ fun main(){
  val bmw = Coche("Gris","Bmw","330i",280,5,"2102DSB")
  println(bmw.toString())
  val Ferrari= Coche("Rojo","Ferrari","Twingo", 500, 3,"PUTA123")
- Ferrari.imprimir()
+ println(Ferrari.toString())
 }
